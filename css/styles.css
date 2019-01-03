@@ -1,12 +1,39 @@
 
-body, html, article {
-  height: 100%;
-  margin: 0;
-  display: grid;
-
-  /* font-family: sans-serif; */
-}
-article h1 {
-  margin: auto;
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 1em;
+}
+
+h1 span {
+  display: block;
+  font-size: 2em;
+  line-height: 50%;
+}
+
+hr {
+  width: 30px;
+  border-top: 1px solid #000;
+}
+
+footer {
+  font-family: Verdana, serif;
+  font-size: small;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 759px) {
+  body {
+    padding: 0;
+  }
 }
